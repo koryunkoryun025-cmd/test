@@ -1,0 +1,10 @@
+| Ingredient        | Quantity per 10 Shaurma |
+| ----------------- | ----------------------- |
+| Chicken Breast    | 5 pcs                   |
+| Onion             | 2 pcs                   |
+| Greek Yogurt      | 2 pcs                   |
+| Red Pepper        | 1 pcs                   |
+| Hot Pepper        | 1 pack                  |
+| Pita              | 10 pcs                  |
+| Tomato            | 3 pcs                   |
+| Cucumber (Varung) | 3 pcs                   |
