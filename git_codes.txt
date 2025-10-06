@@ -1,0 +1,52 @@
+Junior
+git switch -c feature-1
+git add hello.js
+git commit -m "feature-1:add hello.js"
+git push origin feature-1
+git add utils.js
+git commit --amend
+git push --force-with-lease
+git stash
+git switch develop
+git stash pop
+
+Middle
+git rebase -i HEAD~3
+1-pick
+2-squash
+3-squash
+git switch branch
+git cherry-pick <id>
+git tag v1.0.0
+git tag -a v1.0.0 -m "----"
+git push origin V1.0.0
+git revert <id> <id>
+
+Senior
+git reflog
+git checkout <id>
+git blame -L 41,42
+git clean -f
+git switch develop
+git merge --squash feature-1
+git commit -m "----"
+git switch experiment
+git rebase --onto develop~3 develop experiment
+
+
+1. git commit --amend
+change
+git push --force
+2. git fetch origin
+git rebase origin develop
+3. git rm <file>
+git commit -m "----"
+4. git branch -d <branch>
+git push origin --dekete <branch>
+5. git tag -a v1.0.0 -m "----"
+git push origin v1.0.0
+
+
+
+
+ 
